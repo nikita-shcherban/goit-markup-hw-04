@@ -78,12 +78,16 @@ header {
 
 .container {
   max-width: 1158px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 15px;
 }
 
 .section {
   padding: 120px 0;
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
 }
 
 .header-container {
@@ -260,6 +264,9 @@ address {
   background-size: contain;
   padding: 188px 0;
   background-color: #2e2f42;
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
 }
 
 .order-button {
@@ -267,6 +274,7 @@ address {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
   border-radius: 4px;
   border: 0;
@@ -301,8 +309,25 @@ address {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
   gap: 24px;
   margin-top: 8px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #f4f4fd;
+  background-color: #4d5ae5;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: #404bbf;
 }
 
 .portfolio-item {
@@ -344,8 +369,13 @@ address {
   max-width: 264px;
 }
 
+.icon {
+  color: #f4f4fd;
+}
+
 .social-links-footer p {
   color: #ffffff;
+  font-weight: 500;
   margin-bottom: 16px;
 }
 
@@ -353,9 +383,13 @@ address {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
+  flex-shrink: 0;
   flex-basis: calc((100% - 48px) / 4);
 }
 
 footer {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
   background-color: #2e2f42;
 }
