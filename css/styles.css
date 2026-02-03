@@ -248,8 +248,7 @@ address {
   color: #404bbf;
 }
 
-.address-link:hover,
-.address-link:focus .studio-link {
+.studio-link {
   position: relative;
 }
 
