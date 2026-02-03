@@ -234,17 +234,15 @@ address {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address-link {
+.site-address .link {
   color: #434455;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link:hover,
-.link:focus,
-.address-link:hover,
-.address-link:focus {
+.page-header .link:hover,
+.page-header .link:focus {
   color: #404bbf;
 }
 
