@@ -234,16 +234,22 @@ address {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.address-link {
+  color: #434455;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .link:hover,
-.link:focus {
+.link:focus,
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 
-.address-link {
-  color: #434455;
-}
-
-.studio-link {
+.address-link:hover,
+.address-link:focus .studio-link {
   position: relative;
 }
 
